@@ -1,7 +1,7 @@
 
-  // 本组件为搜索组件
-  // 需要传入addflag   值为true / false （是否显示搜索框右侧部分）
-  // 若显示搜索框右侧部分，addflag值为true  需传入右侧图标url以及addhandle函数
+// 本组件为搜索组件
+// 需要传入addflag   值为true / false （搜索框右侧部分）
+// 若显示搜索框右侧部分   需传入右侧图标url以及addhandle函数
 
 Component({
 
@@ -9,27 +9,31 @@ Component({
 
     addflag: {    //显示搜索框右侧部分
       type: Boolean,
-      value: false,   //如果不传addflg，那么默认不显示
+      value: false,
       observer(newVal, oldVal, changedPath) {
 
       }
     },
     addimg: {       //显示搜索框右侧部分icon
-      type:String,
-      value:''
+      type: String,
+      value: ''
     },
-    searchstr:{     //input  值
-      type:String,
-      value:'值'
+    searchstr: {     //input  值
+      type: String,
+      value: '值'
     },
+    searchflag: {
+      type: Boolean,
+      value: false,
+    }
 
-    },
+  },
 
   /**
    * 组件的初始数据
    */
   data: {
-    searchflag: false,   //搜索框 取消按钮显示与隐藏
+    // searchflag: false,   //搜索框 取消按钮显示与隐藏
   },
 
   /**
@@ -37,9 +41,9 @@ Component({
 
    */
   methods: {
-    
+
     //获得焦点
-    getfocus(){
+    getfocus() {
       this.setData({
         searchflag: true,
       })
@@ -50,15 +54,15 @@ Component({
     },
     //搜索输入
     searchList(e) {
-      this.triggerEvent("searchList",e);
+      this.triggerEvent("searchList", e);
     },
     //查询
     endsearchList(e) {
-      
+
       this.triggerEvent("endsearchList");
     },
     //失去焦点
-    blursearch(){
+    blursearch() {
       // console.log('失去焦点')
 
     },
