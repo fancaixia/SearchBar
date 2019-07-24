@@ -1,5 +1,5 @@
 ### SearchBar  微信小程序搜索框
-https://github.com/fancaixia/SearchBar/blob/master/pic/001.png <br/>
+![https://github.com/fancaixia/SearchBar/blob/master/pic/001.png](https://github.com/fancaixia/SearchBar/blob/master/pic/001.png) <br/>
 
 
 #### searchBox/index.wxml
