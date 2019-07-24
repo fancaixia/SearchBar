@@ -1,5 +1,6 @@
 ### SearchBar  微信小程序搜索框
 ![https://github.com/fancaixia/SearchBar/blob/master/pic/001.png](https://github.com/fancaixia/SearchBar/blob/master/pic/001.png) <br/>
+### 页面结构
 ![https://github.com/fancaixia/SearchBar/blob/master/pic/code.png](https://github.com/fancaixia/SearchBar/blob/master/pic/code.png) <br/>
 
 
