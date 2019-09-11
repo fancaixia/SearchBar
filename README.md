@@ -241,3 +241,6 @@ Page({
   "navigationBarTitleText": "活动管理"
 }
 ```
+
+###如果这篇文章对你有帮助，请帮忙扫描小程序
+![https://github.com/fancaixia/SearchBar/blob/master/images/youjiaoxueyuan.png](https://github.com/fancaixia/SearchBar/blob/master/images/youjiaoxueyuan.png)
