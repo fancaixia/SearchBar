@@ -25,13 +25,14 @@ Page({
   //搜索框输入时触发
   searchList(ev) {
     let e = ev.detail;
+    console.log(e.detail.value,'模糊查询字段')
     this.setData({
       searchstr: e.detail.value
     })
   },
   //搜索回调
   endsearchList(e) {
-    console.log('查询数据')
+    console.log('搜索框回调函数')
   },
   // 取消搜索
   cancelsearch() {
